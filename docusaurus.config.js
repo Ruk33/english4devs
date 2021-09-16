@@ -13,7 +13,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   favicon: 'img/favicon.ico',
   organizationName: 'ruk33', // Usually your GitHub org/user name.
   projectName: 'english4devs', // Usually your repo name.
-
+  trailingSlash: false,
   presets: [
     [
       '@docusaurus/preset-classic',
@@ -50,22 +50,22 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         },
         items: [
           {
-            to: '/cursos',
+            to: '/',
             label: 'Cursos',
             position: 'left'
           },
           {
-            to: '/nosotros',
+            to: '/',
             label: 'Nosotros',
             position: 'left'
           },
           {
-            to: '/precios',
+            to: '/',
             label: 'Precios',
             position: 'left'
           },
           {
-            to: '/contacto',
+            to: '/',
             label: 'Contacto',
             position: 'left'
           }
