@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #ed155d;
+  --ifm-color-primary: #ed155d;
+  --ifm-color-primary-dark: #d81153;
+  --ifm-color-primary-darker: #cc104e;
+  --ifm-color-primary-darkest: #a80d40;
+  --ifm-color-primary-light: #ef2d6e;
+  --ifm-color-primary-lighter: #f03976;
+  --ifm-color-primary-lightest: #f35d8f;
+  --ifm-code-font-size: 95%;
+  --ifm-navbar-height: 80px;
+  --ifm-navbar-background-color: #0a0406;
+  --ifm-navbar-link-color: #ffffff;
+  --ifm-background-color: #f8d210;
+  --ifm-heading-font-family: 'Bebas Neue', cursive;
+  --ifm-font-family-base: 'Roboto', sans-serif;
+  --ifm-font-size-base: 20px;
+  --ifm-h1-font-size: 48px;
+}
+
+.navbar__brand {
+  height: 65px;
+}
+
+html[data-theme='dark'] .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.cta-container {
+  background-color: var(--ifm-navbar-background-color);
+  color: var(--ifm-navbar-link-color);
+  text-align: center;
+}
